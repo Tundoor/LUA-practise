@@ -83,6 +83,7 @@ end
 
 -- ####################################### For Loop Example
 
+print("For Loop Example")
 local name = "Thandolwethu"
 
 -- We start at 1 because lau is 1 indexed, not 0 indexed
@@ -92,6 +93,7 @@ end
 
 -- ####################################### Repeat until Loop Example
 
+print("Return until Loop Example")
 number = 0
 repeat
    print("This is a return loop")
@@ -99,6 +101,14 @@ repeat
 until  
    number >= 5
  
+-- ####################################### While Loop Example
+
+print("While Loop Example")
+damage = 20
+while damage > 0 do
+   print("Smack")
+   damage = damage - 5
+end
 
 -- Challenge #1
 
