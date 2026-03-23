@@ -140,4 +140,16 @@ print(message)
 score = 150
 print("Player score is: " .. score)  
 
+-- ####################################### Type conversion in LUA
 
+-- The tostring() function is Lua's built-in tool for converting any value into its string representation.
+
+-- This function is particularly useful when you need to ensure a value is a string before concatenation. While Lua often handles type conversion automatically, using tostring() makes your intentions clear and prevents potential issues.
+
+score = 150
+scoreString = tostring(score)
+print(scoreString)  -- Output: "150"
+
+isActive = true
+statusString = tostring(isActive)
+print(statusString)  -- Output: "true"
