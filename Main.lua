@@ -63,6 +63,8 @@ repeat
    statement(s)
 until { condition }
 
+
+
 If you for some reason need to break a while loop, you can add this to break the loop after a condition a met. For example, I like to add a break if a condition with an if statement changes.
 
 To implement a break, you’d do this:
@@ -78,6 +80,9 @@ end
 
 ]]
 
+
+-- ####################################### For Loop Example
+
 local name = "Thandolwethu"
 
 -- We start at 1 because lau is 1 indexed, not 0 indexed
@@ -85,7 +90,15 @@ for i = 1, #name, 1 do
   print("Thando")
 end
 
+-- ####################################### Repeat until Loop Example
 
+number = 0
+repeat
+   print("This is a return loop")
+   number = number + 1
+until  
+   number >= 5
+ 
 
 -- Challenge #1
 
