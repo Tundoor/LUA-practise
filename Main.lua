@@ -153,3 +153,20 @@ print(scoreString)  -- Output: "150"
 isActive = true
 statusString = tostring(isActive)
 print(statusString)  -- Output: "true"
+
+-- To check the type of the varieble we use the type() function
+
+print("This is the type of score: " .. type(score))
+print("This is the type of score string: " .. type(scoreString))
+
+-- ####################################### Getting User input
+
+-- As of now we stored values that we thought about in variables. Programs usually don't work this way. We receive values from an outer source, a user for example.
+
+-- To get input from a user or the system we need to write:
+
+io.write("Whats Your name?")
+var = io.read()
+print("Hello " .. var)
+
+-- The input is always of type string. For example, if the input is 56 then var will hold the string "56".
