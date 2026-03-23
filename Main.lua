@@ -119,3 +119,12 @@ currentLevel = 12
 
 print(characterName)
 print(currentLevel)
+
+
+-- Challenge #2
+-- When you separate values with commas inside print(), Lua automatically adds a tab space between each item. This creates clean, organized output without needing to manually format the spacing.
+
+level = 5
+health = 100
+mana = 75
+print("Stats:", level, health, mana)  
