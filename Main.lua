@@ -84,3 +84,15 @@ local name = "Thandolwethu"
 for i = 1, #name, 1 do
   print("Thando")
 end
+
+
+
+-- Challenge #1
+
+-- Create a variable called characterName and assign it the value "Warrior". Create another variable called currentLevel and assign it the value 12. Print both variables to display the character's name and level.
+
+characterName = "Warrior"
+currentLevel = 12
+
+print(characterName)
+print(currentLevel)
