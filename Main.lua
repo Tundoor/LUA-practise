@@ -128,3 +128,16 @@ level = 5
 health = 100
 mana = 75
 print("Stats:", level, health, mana)  
+
+-- ####################################### Concatenation in LUA
+
+-- The concatenation operator .. allows you to join strings and variables together to form complete sentences.
+
+playerName = "Alex"
+message = "Welcome, " .. playerName .. "!"
+print(message)  
+
+score = 150
+print("Player score is: " .. score)  
+
+
